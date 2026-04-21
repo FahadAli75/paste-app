@@ -1,0 +1,129 @@
+/* ---------------------------------------------------------
+   PAGE BACKGROUND (Soft Modern App Look)
+--------------------------------------------------------- */
+body {
+  background: linear-gradient(180deg, #eef2f6, #ffffff);
+  margin: 0;
+  padding: 24px;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #1f2937;
+}
+
+/* ---------------------------------------------------------
+   TOP WRAPPER (Toolbar Layout)
+--------------------------------------------------------- */
+.title-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  width: 100%;
+  margin-bottom: 18px;
+
+  padding: 14px 16px;
+
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* ---------------------------------------------------------
+   INPUT FIELD (Modern Clean Design)
+--------------------------------------------------------- */
+.input-css {
+  flex: 1;
+
+  padding: 13px 14px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+
+  font-size: 15px;
+
+  background: #f9fafb;
+
+  transition: all 0.3s ease;
+}
+
+.input-css:focus {
+  background: #ffffff;
+  border-color: #4a90e2;
+
+  box-shadow: 0 0 0 4px rgba(74,144,226,0.15);
+  outline: none;
+}
+
+/* ---------------------------------------------------------
+   PASTE BUTTON (Blue Modern Accent)
+--------------------------------------------------------- */
+.btn-paste {
+  background: linear-gradient(135deg, #4a90e2, #2f6fcf);
+  color: white;
+
+  padding: 11px 18px;
+
+  border: none;
+  border-radius: 10px;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: 0 6px 14px rgba(47,111,207,0.25);
+  transition: all 0.25s ease;
+}
+
+.btn-paste:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(47,111,207,0.35);
+}
+
+/* ---------------------------------------------------------
+   TEXTAREA WRAPPER (Card Style)
+--------------------------------------------------------- */
+.TADiv-css {
+  width: 100%;
+  margin-top: 20px;
+
+  padding: 16px;
+
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+/* ---------------------------------------------------------
+   TEXTAREA (Clean Writing Mode)
+--------------------------------------------------------- */
+.textarea-css {
+  width: 100%;
+  height: 420px;
+
+  padding: 16px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+
+  font-size: 15px;
+  line-height: 1.7;
+
+  background: #f8fafc;
+
+  transition: all 0.3s ease;
+  resize: vertical;
+}
+
+.textarea-css:focus {
+  background: #ffffff;
+  border-color: #2f6fcf;
+
+  box-shadow: 0 0 0 4px rgba(47,111,207,0.15);
+  outline: none;
+}
